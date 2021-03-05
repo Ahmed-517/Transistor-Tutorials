@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  margin: 5px;
+  border: 2px solid;
+}
+
+
+p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    align-content: center;
+  }
+  iframe {
+    /*
+    */
+    width: 100%;
+  }
+  div {
+    width: 100%;
+    height: max-content;
+    margin: 6px;
+    border: 2px solid;
+  }
+}
